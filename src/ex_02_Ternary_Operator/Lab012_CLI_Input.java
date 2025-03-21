@@ -10,8 +10,10 @@ public class Lab012_CLI_Input {
         System.out.println(Can_I_Vote);
 
 
-        int num=12;
-        String result=num>0 ? "Positive Number":"Negative Number";
+
+        String num =args[1];
+        int number= Integer.parseInt(num);
+        String result=number>0 ? "Positive Number":"Negative Number";
         System.out.println(result);
 
    //Nested Ternery
