@@ -19,5 +19,12 @@ public class Lab_018_For_Loop {
             System.out.println(j);
         }*/
         // Process finished with exit code 130 - means manually stop
+
+        int j=34;
+        for(; j<40 ; j++)
+        {
+            System.out.println(j);
+        }
+        System.out.println("Value of j is "+j);
     }
 }

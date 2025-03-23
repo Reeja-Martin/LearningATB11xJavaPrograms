@@ -12,5 +12,6 @@ public class Lab_020_Interview {
         for (int reeja = 0; ;) {
             System.out.println("Hello");
         } //infinite loop as there is no condition
+
     }
 }
