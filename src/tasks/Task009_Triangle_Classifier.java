@@ -35,5 +35,6 @@ public class Task009_Triangle_Classifier {
         {
             System.out.println("It is an Scalene triangle");
         }
+    scanner.close();
     }
 }
