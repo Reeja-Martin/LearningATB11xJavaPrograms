@@ -20,21 +20,30 @@ public class Task009_Triangle_Classifier {
         System.out.println("Enter third side of trianle");
         int c=scanner.nextInt();
 
-        if(a==b|| a==c)
+        if(a<=0||b<=0||c<=0)
         {
-            if(b==c)
-            {
-                System.out.println("It is an Equilateral Triangle");
-            }
-            else
+            System.out.println("This is not a triangle");
+            System.exit(0);
+        }
+        else if (a+b<=c||a+c<=b||b+c<=a)
+        {
+            System.out.println("This is not a triangle");
+            System.exit(0);
+         }
+        else if(a==b && b==c)
+        {
+            System.out.println("It is an Equilateral Triangle");
+        }
+        else if(a==b||b==c||a==c)
             {
                 System.out.println("It is an Isoscelus triangle");
             }
-        }
-        else
-        {
-            System.out.println("It is an Scalene triangle");
-        }
+            else
+            {
+                System.out.println("It is an Scalene triangle");
+            }
+
+
     scanner.close();
     }
 }
