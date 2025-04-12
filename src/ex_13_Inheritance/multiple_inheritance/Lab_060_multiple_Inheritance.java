@@ -1,4 +1,4 @@
-package ex_14_Inheritance.multiple_inheritance;
+package ex_13_Inheritance.multiple_inheritance;
 
 public class Lab_060_multiple_Inheritance {
 

@@ -1,4 +1,4 @@
-package ex_12_Inheritance.single_inheritance;
+package ex_13_Inheritance.single_inheritance;
 
 public class TestCase1 extends CommonToAll {
 
